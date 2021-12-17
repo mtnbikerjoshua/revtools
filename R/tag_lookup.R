@@ -30,7 +30,8 @@ tag_lookup <- function(
         "editor" = "ED",
         "edition" = "ED",
         "language" = "LA",
-        "eppi_id" = "U1"
+        "eppi_id" = "U1",
+        "unique_id" = "IO"
       )
     },
     "wos" = { # https://images.webofknowledge.com/images/help/WOK/hs_alldb_fieldtags.html
@@ -120,6 +121,7 @@ tag_lookup <- function(
     "ris_write" = {
       list(
         "type" = "TY",
+        "unique_id" = "IO",
         "author" = "AU",
         "year" = "PY",
         "title" = "TI",
